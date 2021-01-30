@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+body{
+	background-color: #ccc;
+	font-family: 'Lato', sans-serif;
+	line-height: 1.6em;
+	margin: 0;
+}
+
+.contenedor{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+header{
+	background-color: #242582;
+	color: #F64c72;
+}
+
+nav{
+	background-color: #2f2fa2;
+	color: #fff;
+}
+
+nav ul{
+	padding: 0;
+	list-style: none;
+}
+
+nav li{
+	display: inline;
+}
+
+nav a{
+	color: #99738e;
+	text-decoration: none;
+	font-size: 20px;
+	padding-right: 15px;
+}
+
+nav a:hover{
+	text-decoration: underline;
+	color:#f64c72;
+}
+
+#presentacion{
+	background-image: url("../img/pinky.jpg");
+	min-height: 300px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+#presentacion h2{
+	color: #fff;
+	font-size: 50px;
+	line-height: 1.6em;
+	padding-top: 30px;
+}
+
+main{
+	float: left;
+	width: 70%;
+	padding: 0px 30px;
+	box-sizing: border-box;
+}
+
+aside{
+	float: right;
+	width: 30%;
+	padding: 30px;
+	box-sizing: border-box;
+	background-color: #F64c72;
+	color: #fff;
+}
+
+
+footer{
+	background-color: #242582;
+	color: #ccc;
+	text-align: center;
+	padding: 5px;
+	margin-top: 40px;
+}
+
+
+@media (max-width: 600px){
+	main{
+		width: 100%;
+		float: none;
+	}
+	aside{
+		width: 100%;
+		float: none;
+	}
+}
